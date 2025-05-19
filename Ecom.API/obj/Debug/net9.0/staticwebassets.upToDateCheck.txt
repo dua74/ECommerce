@@ -1,0 +1,2 @@
+wwwroot\Images\Blousee\color.jpg
+wwwroot\Images\Blousee\photo_2023-11-17_19-26-45.jpg

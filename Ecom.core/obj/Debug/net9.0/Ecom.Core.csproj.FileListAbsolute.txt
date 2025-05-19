@@ -1,0 +1,13 @@
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\bin\Debug\net9.0\Ecom.Core.deps.json
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\bin\Debug\net9.0\Ecom.Core.dll
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\bin\Debug\net9.0\Ecom.Core.pdb
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.csproj.AssemblyReference.cache
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.AssemblyInfoInputs.cache
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.AssemblyInfo.cs
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.csproj.CoreCompileInputs.cache
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.sourcelink.json
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.dll
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\refint\Ecom.Core.dll
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\Ecom.Core.pdb
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.core\obj\Debug\net9.0\ref\Ecom.Core.dll

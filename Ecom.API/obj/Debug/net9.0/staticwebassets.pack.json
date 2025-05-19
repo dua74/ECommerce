@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\color.jpg",
+      "PackagePath": "staticwebassets\\Images\\Blousee\\color.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg",
+      "PackagePath": "staticwebassets\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecom.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecom.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Ecom.API.props",
+      "PackagePath": "build\\Ecom.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Ecom.API.props",
+      "PackagePath": "buildMultiTargeting\\Ecom.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Ecom.API.props",
+      "PackagePath": "buildTransitive\\Ecom.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Ecom.API/Images/Blousee/color.cdugozsv8i.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Blousee\color.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cdugozsv8i"},{"Name":"integrity","Value":"sha256-QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k="},{"Name":"label","Value":"_content/Ecom.API/Images/Blousee/color.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6750"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 11:32:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Ecom.API/Images/Blousee/color.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Blousee\color.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6750"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 11:32:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Ecom.API/Images/Blousee/photo_2023-11-17_19-26-45.iizwkttwzd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Blousee\photo_2023-11-17_19-26-45.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iizwkttwzd"},{"Name":"integrity","Value":"sha256-NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls\u002B3kM="},{"Name":"label","Value":"_content/Ecom.API/Images/Blousee/photo_2023-11-17_19-26-45.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"209042"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls\u002B3kM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 11:32:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Ecom.API/Images/Blousee/photo_2023-11-17_19-26-45.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Blousee\photo_2023-11-17_19-26-45.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls\u002B3kM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"209042"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls\u002B3kM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 11:32:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
