@@ -15,15 +15,35 @@ namespace Ecom.infrastructure.Data.Config
         {
             builder.Property(x => x.Name).IsRequired();
             builder.Property(x=>x.Description).IsRequired();
-            builder.Property(x=>x.Price).HasColumnType("decimal(18,2)");
-            builder.HasData(new Product
-            {
+            builder.Property(x=>x.NewPrice).HasColumnType("decimal(18,2)");
+            builder.HasData(
+                new Product
+                {
                 Id = 1,
-                Name = "TEST",
-                Description = "TEST.DESC",
-                Price = 100,
+                Name = "Rose",
+                Description = "Red Rose",
+                NewPrice = 100,
                 CategoryId = 1
-            });
+            },
+                new Product
+                {
+                    Id = 2,
+                    Name = "Men's T-Shirt",
+                    Description = "100% cotton, available in multiple sizes",
+                    NewPrice = 29.99m,
+                    CategoryId = 2
+                },
+                new Product
+                {
+                    Id = 3,
+                    Name = "Wireless Headphones",
+                    Description = "Noise-cancelling Bluetooth headphones",
+                    NewPrice = 89.99m,
+                    CategoryId = 3
+                }
+
+
+            );
         }
     }
 }

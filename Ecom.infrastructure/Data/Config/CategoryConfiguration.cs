@@ -14,12 +14,28 @@ namespace Ecom.infrastructure.Data.Config
         {
             builder.Property(x => x.Name).IsRequired().HasMaxLength(30);
             builder.Property(x => x.Id).IsRequired();
-            builder.HasData(new Category
+            builder.HasData(
+                new Category
             {
                 Id = 1,
-                Name = "TEST",
-                Description = "TEST.DESC"
-            });
+                Name = "Flowers",
+                Description = "Plants"
+
+            },
+                new Category
+                {
+                    Id = 2,
+                    Name = "Clothing",
+                    Description = "Apparel and garments"
+                },
+                new Category
+                {
+                    Id = 3,
+                    Name = "Electronics",
+                    Description = "Electronic devices and gadgets"
+                }
+
+            );
 
 
         }

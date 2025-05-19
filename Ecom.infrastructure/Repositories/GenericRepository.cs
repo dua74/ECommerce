@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Ecom.infrastructure.Repositories
-{ 
+{
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         private readonly AppDbContext _context;
@@ -17,28 +17,33 @@ namespace Ecom.infrastructure.Repositories
         {
             _context = context;
         }
+
+
         public async Task AddAsync(T entity)
         {
             await _context.Set<T>().AddAsync(entity);
             await _context.SaveChangesAsync();
         }
 
+
         public async Task DeleteAsync(int id)
         {
-            var entity= await _context.Set<T>().FindAsync(id);
+            var entity = await _context.Set<T>().FindAsync(id);
             _context.Set<T>().Remove(entity);
-            
+
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IReadOnlyList<T>> GetAllAsynnc()=> await _context.Set<T>().AsNoTracking().ToListAsync();
-        public async Task<IReadOnlyList<T>> GetAllAsynnc(params Expression<Func<T, object>>[] includes)
+
+
+        public async Task<IReadOnlyList<T>> GetAllAsync()=> await _context.Set<T>().AsNoTracking().ToListAsync();
+        public async Task<IReadOnlyList<T>> GetAllAsync(params Expression<Func<T, object>>[] includes)
         {
             var quary = _context.Set<T>().AsQueryable();
             foreach (var item in includes)
             {
                 quary = quary.Include(item);
-                
+
             }
             return await quary.ToListAsync();
         }
@@ -51,7 +56,7 @@ namespace Ecom.infrastructure.Repositories
                 quary = quary.Include(item);
 
             }
-           var entity = await quary.FirstOrDefaultAsync(x=>EF.Property<int>(x,"Id")==id);
+            var entity = await quary.FirstOrDefaultAsync(x => EF.Property<int>(x, "Id") == id);
             return entity;
 
         }
@@ -69,5 +74,9 @@ namespace Ecom.infrastructure.Repositories
             await _context.SaveChangesAsync();
 
         }
+
+
+
+
     }
 }
