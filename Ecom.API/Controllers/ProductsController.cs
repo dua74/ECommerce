@@ -3,39 +3,34 @@ using Ecom.API.Helper;
 using Ecom.Core.DTO;
 using Ecom.Core.Entities.Product;
 using Ecom.Core.Interfaces;
+using Ecom.Core.Services;
+using Ecom.Core.Sharing;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+
+
 
 namespace Ecom.API.Controllers
 {
 
     public class ProductsController : BaseController
     {
-        public ProductsController(IUnitOfWork work, IMapper mapper) : base(work, mapper)
+        private readonly IImageManagementService service;
+        public ProductsController(IUnitOfWork work, IMapper mapper, IImageManagementService service) : base(work, mapper)
         {
+            this.service = service;
         }
 
         [HttpGet("get-all")]
-        public async Task<IActionResult> getAll()
+        public async Task<IActionResult> getAll([FromQuery]ProductParams  productParams)
         {
             try
             {
-
-                var products = await work.ProductRepository.GetAllAsync(x => x.Category, x => x.Photos);
-                var result = mapper.Map<List<ProductDTO>>(products);
-
-                if (products == null)
-                {
-                    return BadRequest(new ResponseAPI(400));
-
-                }
-                else
-                {
-                    return Ok(result);
-                }
-
-
+                var products = await work.ProductRepository.GetAllAsync(productParams);
+                var totalCount = await work.ProductRepository.CountAsync();
+                return Ok(new Pagination<ProductDTO>(productParams.pageNumber, productParams.pageSize, totalCount, products));
+               
             }
             catch (Exception ex)
             {
