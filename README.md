@@ -62,3 +62,10 @@ GitHub: https://github.com/dua74
 ## 📜 License
 
 This project is open source and available under the MIT License.
+
+## 📬 Postman Collection
+
+You can test the API using the official Postman collection:
+
+🔗 [ECommerce API Postman Collection](https://duahelal.postman.co/workspace/ECom~da1abf4d-95f0-4c84-887b-57fa5a123d33/collection/44893276-d187ca62-7da3-4555-978d-adbdc029c358?action=share&creator=44893276)
+
