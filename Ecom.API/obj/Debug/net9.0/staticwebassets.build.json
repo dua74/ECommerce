@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eUQjEEFsONS54ect9Mrg2szv3vMC0vqyKCMwwOtxjSs=",
+  "Hash": "dEMIvE8xJhUFy2v6xmdVADy/CByzuM+SH8V5n0okq2I=",
   "Source": "Ecom.API",
   "BasePath": "_content/Ecom.API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\color.jpg",
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\1.webp",
       "SourceId": "Ecom.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
       "BasePath": "_content/Ecom.API",
-      "RelativePath": "Images/Blousee/color#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Bracelet/1#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,19 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cdugozsv8i",
-      "Integrity": "QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k=",
+      "Fingerprint": "y4qrs3128s",
+      "Integrity": "7irL8cax9B/YICpzqgiDq7EMRp7m/S+3iyry8oDrAKM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Blousee\\color.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Bracelet\\1.webp"
     },
     {
-      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg",
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\2.webp",
       "SourceId": "Ecom.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
       "BasePath": "_content/Ecom.API",
-      "RelativePath": "Images/Blousee/photo_2023-11-17_19-26-45#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Bracelet/2#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,17 +52,185 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "iizwkttwzd",
-      "Integrity": "NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls+3kM=",
+      "Fingerprint": "vtlrq63hzg",
+      "Integrity": "Q0nAc6zihw1hPvPMF1lyh7Px8Pm/zzhsUqkUZnHN+vk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Bracelet\\2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\3.webp",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Bracelet/3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "20tpxds0mx",
+      "Integrity": "7ssVpLK/d0XKQegeZqa+G6piZxOPE2hiMgHUyokb/mw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Bracelet\\3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\4.webp",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Bracelet/4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "27sqbq3zr8",
+      "Integrity": "PpT8WSJVMXZKcuQx+jGtQolcDtpj1mA8KKB405mZs9Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Bracelet\\4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\IMG-20250522-WA0017.jpg",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Bracelet/IMG-20250522-WA0017#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "84tj46hz6o",
+      "Integrity": "KEbNd0DfWOokGGkW/Pvcmj91kWY0i92WqyDiqfLQOwU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Bracelet\\IMG-20250522-WA0017.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0019.jpg",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Earrings/IMG-20250522-WA0019#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5qqhcxaub0",
+      "Integrity": "c44DBxcvrv+CRPsjrkPtWlq4aw7V85UY/wUJ7ayLhk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Earrings\\IMG-20250522-WA0019.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0020.jpg",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Earrings/IMG-20250522-WA0020#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z47xktp063",
+      "Integrity": "naVIN7fd0lPmY8zr9TmKNoleAVLfWm6HcqXWL7GuqGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Earrings\\IMG-20250522-WA0020.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0003.jpg",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Nicklace/IMG-20250522-WA0003#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eshhcsi7p4",
+      "Integrity": "TtBVefcHXjUGf0yAkBBz4e/sygIp3ZDHZBMEFl8WUqY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Nicklace\\IMG-20250522-WA0003.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0004.jpg",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Nicklace/IMG-20250522-WA0004#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "38p2x07jl9",
+      "Integrity": "M90Qc782SGwV8uJj1e0C/T+EGSQECeV3ZYiRNq08GUY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Nicklace\\IMG-20250522-WA0004.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0021.jpg",
+      "SourceId": "Ecom.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\",
+      "BasePath": "_content/Ecom.API",
+      "RelativePath": "Images/Nicklace/IMG-20250522-WA0021#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4orae1v8q2",
+      "Integrity": "lAxgJyYa0xdoObzNt3JedIqW4pwp2+jxyWTvDX3whgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Nicklace\\IMG-20250522-WA0021.jpg"
     }
   ],
   "Endpoints": [
     {
-      "Route": "Images/Blousee/color.cdugozsv8i.jpg",
-      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\color.jpg",
+      "Route": "Images/Bracelet/1.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71,64 +239,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6750"
+          "Value": "30664"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k=\""
+          "Value": "\"7irL8cax9B/YICpzqgiDq7EMRp7m/S+3iyry8oDrAKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 11:32:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cdugozsv8i"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Blousee/color.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Blousee/color.jpg",
-      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\color.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6750"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 11:32:45 GMT"
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -138,13 +261,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QP4YjwLicZuCnspJMRrgqvCzzg/089RIxMQiRPPWU0k="
+          "Value": "sha256-7irL8cax9B/YICpzqgiDq7EMRp7m/S+3iyry8oDrAKM="
         }
       ]
     },
     {
-      "Route": "Images/Blousee/photo_2023-11-17_19-26-45.iizwkttwzd.jpg",
-      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg",
+      "Route": "Images/Bracelet/1.y4qrs3128s.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -153,19 +276,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "209042"
+          "Value": "30664"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls+3kM=\""
+          "Value": "\"7irL8cax9B/YICpzqgiDq7EMRp7m/S+3iyry8oDrAKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 11:32:45 GMT"
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -175,21 +298,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iizwkttwzd"
+          "Value": "y4qrs3128s"
         },
         {
           "Name": "label",
-          "Value": "Images/Blousee/photo_2023-11-17_19-26-45.jpg"
+          "Value": "Images/Bracelet/1.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls+3kM="
+          "Value": "sha256-7irL8cax9B/YICpzqgiDq7EMRp7m/S+3iyry8oDrAKM="
         }
       ]
     },
     {
-      "Route": "Images/Blousee/photo_2023-11-17_19-26-45.jpg",
-      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg",
+      "Route": "Images/Bracelet/2.vtlrq63hzg.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -198,19 +321,64 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "209042"
+          "Value": "24904"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls+3kM=\""
+          "Value": "\"Q0nAc6zihw1hPvPMF1lyh7Px8Pm/zzhsUqkUZnHN+vk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 11:32:45 GMT"
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vtlrq63hzg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Bracelet/2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q0nAc6zihw1hPvPMF1lyh7Px8Pm/zzhsUqkUZnHN+vk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Bracelet/2.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q0nAc6zihw1hPvPMF1lyh7Px8Pm/zzhsUqkUZnHN+vk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -220,7 +388,663 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NoxvQnM0LzHnVLtU4LMGJo4HlxztZHsQuDKPYls+3kM="
+          "Value": "sha256-Q0nAc6zihw1hPvPMF1lyh7Px8Pm/zzhsUqkUZnHN+vk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Bracelet/3.20tpxds0mx.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ssVpLK/d0XKQegeZqa+G6piZxOPE2hiMgHUyokb/mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "20tpxds0mx"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Bracelet/3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ssVpLK/d0XKQegeZqa+G6piZxOPE2hiMgHUyokb/mw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Bracelet/3.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ssVpLK/d0XKQegeZqa+G6piZxOPE2hiMgHUyokb/mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ssVpLK/d0XKQegeZqa+G6piZxOPE2hiMgHUyokb/mw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Bracelet/4.27sqbq3zr8.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PpT8WSJVMXZKcuQx+jGtQolcDtpj1mA8KKB405mZs9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "27sqbq3zr8"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Bracelet/4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PpT8WSJVMXZKcuQx+jGtQolcDtpj1mA8KKB405mZs9Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Bracelet/4.webp",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PpT8WSJVMXZKcuQx+jGtQolcDtpj1mA8KKB405mZs9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PpT8WSJVMXZKcuQx+jGtQolcDtpj1mA8KKB405mZs9Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Bracelet/IMG-20250522-WA0017.84tj46hz6o.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\IMG-20250522-WA0017.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KEbNd0DfWOokGGkW/Pvcmj91kWY0i92WqyDiqfLQOwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 12:27:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "84tj46hz6o"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Bracelet/IMG-20250522-WA0017.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KEbNd0DfWOokGGkW/Pvcmj91kWY0i92WqyDiqfLQOwU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Bracelet/IMG-20250522-WA0017.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\IMG-20250522-WA0017.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KEbNd0DfWOokGGkW/Pvcmj91kWY0i92WqyDiqfLQOwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 12:27:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KEbNd0DfWOokGGkW/Pvcmj91kWY0i92WqyDiqfLQOwU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Earrings/IMG-20250522-WA0019.5qqhcxaub0.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0019.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c44DBxcvrv+CRPsjrkPtWlq4aw7V85UY/wUJ7ayLhk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 12:26:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5qqhcxaub0"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Earrings/IMG-20250522-WA0019.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c44DBxcvrv+CRPsjrkPtWlq4aw7V85UY/wUJ7ayLhk8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Earrings/IMG-20250522-WA0019.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0019.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c44DBxcvrv+CRPsjrkPtWlq4aw7V85UY/wUJ7ayLhk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 12:26:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c44DBxcvrv+CRPsjrkPtWlq4aw7V85UY/wUJ7ayLhk8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Earrings/IMG-20250522-WA0020.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0020.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"naVIN7fd0lPmY8zr9TmKNoleAVLfWm6HcqXWL7GuqGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 12:26:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-naVIN7fd0lPmY8zr9TmKNoleAVLfWm6HcqXWL7GuqGw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Earrings/IMG-20250522-WA0020.z47xktp063.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0020.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"naVIN7fd0lPmY8zr9TmKNoleAVLfWm6HcqXWL7GuqGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 12:26:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z47xktp063"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Earrings/IMG-20250522-WA0020.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-naVIN7fd0lPmY8zr9TmKNoleAVLfWm6HcqXWL7GuqGw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Nicklace/IMG-20250522-WA0003.eshhcsi7p4.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0003.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TtBVefcHXjUGf0yAkBBz4e/sygIp3ZDHZBMEFl8WUqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eshhcsi7p4"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Nicklace/IMG-20250522-WA0003.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TtBVefcHXjUGf0yAkBBz4e/sygIp3ZDHZBMEFl8WUqY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Nicklace/IMG-20250522-WA0003.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0003.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TtBVefcHXjUGf0yAkBBz4e/sygIp3ZDHZBMEFl8WUqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TtBVefcHXjUGf0yAkBBz4e/sygIp3ZDHZBMEFl8WUqY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Nicklace/IMG-20250522-WA0004.38p2x07jl9.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0004.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M90Qc782SGwV8uJj1e0C/T+EGSQECeV3ZYiRNq08GUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38p2x07jl9"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Nicklace/IMG-20250522-WA0004.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M90Qc782SGwV8uJj1e0C/T+EGSQECeV3ZYiRNq08GUY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Nicklace/IMG-20250522-WA0004.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0004.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M90Qc782SGwV8uJj1e0C/T+EGSQECeV3ZYiRNq08GUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M90Qc782SGwV8uJj1e0C/T+EGSQECeV3ZYiRNq08GUY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Nicklace/IMG-20250522-WA0021.4orae1v8q2.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0021.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lAxgJyYa0xdoObzNt3JedIqW4pwp2+jxyWTvDX3whgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4orae1v8q2"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Nicklace/IMG-20250522-WA0021.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lAxgJyYa0xdoObzNt3JedIqW4pwp2+jxyWTvDX3whgA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Nicklace/IMG-20250522-WA0021.jpg",
+      "AssetFile": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0021.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lAxgJyYa0xdoObzNt3JedIqW4pwp2+jxyWTvDX3whgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lAxgJyYa0xdoObzNt3JedIqW4pwp2+jxyWTvDX3whgA="
         }
       ]
     }

@@ -1,12 +1,44 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\color.jpg",
-      "PackagePath": "staticwebassets\\Images\\Blousee\\color.jpg"
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\1.webp",
+      "PackagePath": "staticwebassets\\Images\\Bracelet\\1.webp"
     },
     {
-      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg",
-      "PackagePath": "staticwebassets\\Images\\Blousee\\photo_2023-11-17_19-26-45.jpg"
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\2.webp",
+      "PackagePath": "staticwebassets\\Images\\Bracelet\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\3.webp",
+      "PackagePath": "staticwebassets\\Images\\Bracelet\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\4.webp",
+      "PackagePath": "staticwebassets\\Images\\Bracelet\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Bracelet\\IMG-20250522-WA0017.jpg",
+      "PackagePath": "staticwebassets\\Images\\Bracelet\\IMG-20250522-WA0017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0019.jpg",
+      "PackagePath": "staticwebassets\\Images\\Earrings\\IMG-20250522-WA0019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Earrings\\IMG-20250522-WA0020.jpg",
+      "PackagePath": "staticwebassets\\Images\\Earrings\\IMG-20250522-WA0020.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0003.jpg",
+      "PackagePath": "staticwebassets\\Images\\Nicklace\\IMG-20250522-WA0003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0004.jpg",
+      "PackagePath": "staticwebassets\\Images\\Nicklace\\IMG-20250522-WA0004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\wwwroot\\Images\\Nicklace\\IMG-20250522-WA0021.jpg",
+      "PackagePath": "staticwebassets\\Images\\Nicklace\\IMG-20250522-WA0021.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecom.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

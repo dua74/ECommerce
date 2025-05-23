@@ -22,6 +22,9 @@ namespace Ecom.infrastructure
             services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IGenerateToken,  GenerateToken>();
+
             services.AddSingleton<IImageManagementService, ImageManagementService>();
             services.AddSingleton<IFileProvider>(new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
             //var wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");

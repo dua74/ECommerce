@@ -15,7 +15,7 @@ namespace Ecom.Core.Interfaces
         Task<bool> UpdateAsync(UpdateProductDTO updateProductDTO);
         Task DeleteAsync(Product product);
 
-            Task<IEnumerable<ProductDTO>> GetAllAsync(ProductParams productParams);
+            Task<ReturnProductDTO> GetAllAsync(ProductParams productParams);
 
 
     }

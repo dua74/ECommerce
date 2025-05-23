@@ -1,2 +1,10 @@
-wwwroot\Images\Blousee\color.jpg
-wwwroot\Images\Blousee\photo_2023-11-17_19-26-45.jpg
+wwwroot\Images\Bracelet\1.webp
+wwwroot\Images\Bracelet\2.webp
+wwwroot\Images\Bracelet\3.webp
+wwwroot\Images\Bracelet\4.webp
+wwwroot\Images\Bracelet\IMG-20250522-WA0017.jpg
+wwwroot\Images\Earrings\IMG-20250522-WA0019.jpg
+wwwroot\Images\Earrings\IMG-20250522-WA0020.jpg
+wwwroot\Images\Nicklace\IMG-20250522-WA0003.jpg
+wwwroot\Images\Nicklace\IMG-20250522-WA0004.jpg
+wwwroot\Images\Nicklace\IMG-20250522-WA0021.jpg

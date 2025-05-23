@@ -26,7 +26,7 @@ namespace Ecom.infrastructure.Repositories
             this.imageManagementService = imageManagementService;
         }
 
-        public async Task<IEnumerable<ProductDTO>> GetAllAsync(ProductParams productParams)
+        public async Task<ReturnProductDTO> GetAllAsync(ProductParams productParams)
         {
             var query =   context.Products.Include(m => m.Category).Include(m => m.Photos).AsNoTracking();
 
@@ -51,11 +51,13 @@ namespace Ecom.infrastructure.Repositories
                 _ => query.OrderBy(x => x.Name),
             };
 
+            ReturnProductDTO returnProductDTO = new ReturnProductDTO();
+            returnProductDTO.TotalCount =query.Count();
             query = query.Skip((productParams.pageNumber - 1) * productParams.pageSize).Take(productParams.pageSize);
 
 
-            var result =  mapper.Map<List<ProductDTO>>(query);
-            return result;
+            returnProductDTO.products =  mapper.Map<List<ProductDTO>>(query);
+            return returnProductDTO;
 
 
         }

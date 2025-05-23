@@ -1,5 +1,6 @@
 using Ecom.API.MiddleWare;
 using Ecom.infrastructure;
+using Microsoft.Extensions.FileProviders;
 namespace Ecom.API
 {
     public class Program
@@ -14,7 +15,7 @@ namespace Ecom.API
                 options.AddPolicy("CORSPolicy",
                     builder =>
                     {
-                        builder.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("https://localhost:4200");
+                        builder.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:4200");
                               
                                
                     });
@@ -39,6 +40,22 @@ namespace Ecom.API
             }
             app.UseCors("CORSPolicy");
             app.UseMiddleware<ExceptionMiddleWare>();
+            //app.UseStaticFiles();
+            //// Serve static files from wwwroot/Images
+            //app.UseStaticFiles(new StaticFileOptions
+            //{
+            //    FileProvider = new PhysicalFileProvider(
+            //        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images")),
+            //    RequestPath = "/Images"
+            //});
+                app.UseStaticFiles(new StaticFileOptions
+                {
+                FileProvider = new PhysicalFileProvider(
+    Path.Combine(app.Environment.ContentRootPath, "wwwroot", "Images")),
+                    RequestPath = "/Images"
+                });
+
+
 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
