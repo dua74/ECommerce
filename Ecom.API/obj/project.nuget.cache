@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FT8vQ0SeJGY=",
+  "dgSpecHash": "mrSfn+mlPGg=",
   "success": true,
   "projectFilePath": "C:\\Users\\ascom\\Desktop\\Ecom\\ECommerce\\Ecom.API\\Ecom.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\ascom\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\mailkit\\4.12.1\\mailkit.4.12.1.nupkg.sha512",
+    "C:\\Users\\ascom\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\9.0.5\\microsoft.aspnetcore.authentication.jwtbearer.9.0.5.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.5\\microsoft.aspnetcore.cryptography.internal.9.0.5.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\9.0.5\\microsoft.aspnetcore.cryptography.keyderivation.9.0.5.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\9.0.5\\microsoft.aspnetcore.identity.entityframeworkcore.9.0.5.nupkg.sha512",
@@ -52,8 +53,8 @@
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.10.0\\microsoft.identitymodel.abstractions.8.10.0.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.10.0\\microsoft.identitymodel.jsonwebtokens.8.10.0.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.logging\\8.10.0\\microsoft.identitymodel.logging.8.10.0.nupkg.sha512",
-    "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
-    "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
+    "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.0.1\\microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.0.1\\microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.10.0\\microsoft.identitymodel.tokens.8.10.0.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",

@@ -183,3 +183,4 @@ C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.API\bin\Debug\net9.0\Microsoft.Extens
 C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.API\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.API\bin\Debug\net9.0\MailKit.dll
 C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.API\bin\Debug\net9.0\MimeKit.dll
+C:\Users\ascom\Desktop\Ecom\ECommerce\Ecom.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

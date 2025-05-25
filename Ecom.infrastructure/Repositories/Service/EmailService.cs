@@ -20,7 +20,7 @@ namespace Ecom.infrastructure.Repositories.Service
         public async Task SendEmail(EmailDTO emailDTO)
         {
              MimeMessage message = new MimeMessage();
-            message.From.Add (new MailboxAddress( "ECommerce",configuration["EmailSettings:From"]));
+            message.From.Add (new MailboxAddress( "Nawras",configuration["EmailSettings:From"]));
             message.Subject= emailDTO.Subject;
             message.To.Add(new MailboxAddress(emailDTO.To, emailDTO.To));
             message.Body = new TextPart(MimeKit.Text.TextFormat.Html)

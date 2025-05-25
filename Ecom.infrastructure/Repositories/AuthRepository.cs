@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Ecom.infrastructure.Repositories
 {
-    public class AuthRepository: IAuth
+    public class AuthRepository : IAuth
     {
         private readonly UserManager<AppUser> userManager;
         private readonly IEmailService emailService;
@@ -27,11 +27,11 @@ namespace Ecom.infrastructure.Repositories
         }
         public async Task<string> RegisterAsync(RegisterDTO registerDTO)
         {
-            if(registerDTO== null)
+            if (registerDTO == null)
             {
                 return null;
             }
-            if(await userManager.FindByNameAsync(registerDTO.UserName) is not null)
+            if (await userManager.FindByNameAsync(registerDTO.UserName) is not null)
             {
                 return "This UserName is already registered";
             }
@@ -42,7 +42,8 @@ namespace Ecom.infrastructure.Repositories
             AppUser user = new AppUser()
             {
                 Email = registerDTO.Email,
-                UserName = registerDTO.UserName
+                UserName = registerDTO.UserName,
+                DisplayName = registerDTO.DisplayName,
             };
             var result = await userManager.CreateAsync(user, registerDTO.Password);
             if (result.Succeeded is not true)
@@ -57,7 +58,7 @@ namespace Ecom.infrastructure.Repositories
         }
 
 
-        public async Task SendEmail (string email, string code, string component, string subject, string message)
+        public async Task SendEmail(string email, string code, string component, string subject, string message)
         {
             var result = new EmailDTO(email, "helaldoaa11@gmail.com", subject, EmailStringBody.send(email, code, component, message));
             await emailService.SendEmail(result);
@@ -66,27 +67,75 @@ namespace Ecom.infrastructure.Repositories
 
         public async Task<string> LoginAsync(LoginDTO login)
         {
-          if(login == null)
+            if (login == null)
             {
                 return null;
 
             }
             var findUser = await userManager.FindByEmailAsync(login.Email);
-            if(!findUser.EmailConfirmed)
+            if (!findUser.EmailConfirmed)
             {
-                string token= await userManager.GenerateEmailConfirmationTokenAsync(findUser);
+                string token = await userManager.GenerateEmailConfirmationTokenAsync(findUser);
                 await SendEmail(findUser.Email, token, "active", "ActiveEmail", "Confirm your email, Click on the button to activate your account.");
                 return "Please confirm your email";
 
             }
             var result = await signInManager.CheckPasswordSignInAsync(findUser, login.Password, true);
-            if (result.Succeeded) { 
+            if (result.Succeeded)
+            {
                 return generatetoken.GetAndCreateToken(findUser);
             }
-   
+
             return "Email or Password is incorrect";
-            
+
 
         }
+
+        public async Task<bool> SendEmailForForgetPassword(string email)
+        {
+            var findUser = await userManager.FindByEmailAsync(email);
+            if (findUser == null)
+            {
+                return false;
+            }
+            var token = await userManager.GeneratePasswordResetTokenAsync(findUser);
+            await SendEmail(findUser.Email, token, "reset", "ResetPassword", "Click on the button to reset your password.");
+            return true;
+        }
+
+        public async Task<string> ResetPassword(ResetPasswordDTO resetPassword)
+        {
+            var findUser = await userManager.FindByEmailAsync(resetPassword.Email);
+            if (findUser == null)
+            {
+                return null;
+            }
+            var result = await userManager.ResetPasswordAsync(findUser, resetPassword.Token, resetPassword.Password);
+            if (result.Succeeded)
+            {
+                return "Password reset successfully";
+            }
+            return result.Errors.ToList()[0].Description;
+        }
+
+        public async Task<bool> ActiveAccount( ActiveteAccountDTO accountDTO)
+        {
+            var findUser = await userManager.FindByEmailAsync(accountDTO.Email);
+            if (findUser == null)
+            {
+                return false;
+            }
+            var result = await userManager.ConfirmEmailAsync(findUser, accountDTO.Token);
+            if (result.Succeeded)
+            
+                 return true;
+            var token = await userManager.GenerateEmailConfirmationTokenAsync(findUser);
+            await SendEmail(findUser.Email, token, "active", "ActiveEmail", "Confirm your email, Click on the button to activate your account.");
+            return false;
+
+
+        }
+
+
     }
 }

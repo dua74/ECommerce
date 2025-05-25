@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Ecom.API.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "Ecom.Core.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Ecom.API.Controllers.BugController",
     "Method": "GetBadRequest",
     "RelativePath": "api/Bug/bad-request",

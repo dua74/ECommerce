@@ -40,26 +40,24 @@ namespace Ecom.API
             }
             app.UseCors("CORSPolicy");
             app.UseMiddleware<ExceptionMiddleWare>();
-            //app.UseStaticFiles();
-            //// Serve static files from wwwroot/Images
-            //app.UseStaticFiles(new StaticFileOptions
-            //{
-            //    FileProvider = new PhysicalFileProvider(
-            //        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images")),
-            //    RequestPath = "/Images"
-            //});
-                app.UseStaticFiles(new StaticFileOptions
-                {
-                FileProvider = new PhysicalFileProvider(
-    Path.Combine(app.Environment.ContentRootPath, "wwwroot", "Images")),
-                    RequestPath = "/Images"
-                });
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                 FileProvider = new PhysicalFileProvider(
+                 Path.Combine(app.Environment.ContentRootPath, "wwwroot", "Images")),
+                 RequestPath = "/Images"
+            });
 
 
 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
             app.UseHttpsRedirection();
+
+
 
             app.UseAuthorization();
 
