@@ -86,7 +86,7 @@ namespace Ecom.infrastructure.Repositories
                 return generatetoken.GetAndCreateToken(findUser);
             }
 
-            return "Email or Password is incorrect";
+            return "Please check your email or password, Something went wrong!";
 
 
         }
